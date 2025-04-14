@@ -11,7 +11,7 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        System.out.println("Hello this is testing");
+        System.out.println("Hello this is testing somemore ");
         return "Hello from Quarkus REST";
     }
 }
